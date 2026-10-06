@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.tsuji3325.saolauncher'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.tsuji3325.saolauncher"
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName "0.1.0"
+    }
+}
